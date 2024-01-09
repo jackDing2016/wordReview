@@ -1,4 +1,7 @@
 /home/jack/develop/java/wordreview/src/main/java/com/jack/wordreview/service/impl/SimpleReviewServiceImpl.java
 /home/jack/develop/java/wordreview/src/main/java/com/jack/wordreview/App.java
 /home/jack/develop/java/wordreview/src/main/java/com/jack/wordreview/service/ReviewService.java
+/home/jack/develop/java/wordreview/src/main/java/com/jack/wordreview/entry/WordEntry.java
 /home/jack/develop/java/wordreview/src/main/java/com/jack/wordreview/vo/Word.java
+/home/jack/develop/java/wordreview/src/main/java/com/jack/wordreview/dao/impl/FileWordDao.java
+/home/jack/develop/java/wordreview/src/main/java/com/jack/wordreview/dao/WordDao.java

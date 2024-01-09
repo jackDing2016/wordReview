@@ -1,6 +1,11 @@
 package com.jack.wordreview.dao;
 
+import java.util.List;
+
 import org.junit.Test;
+
+import com.jack.wordreview.dao.impl.FileWordDao;
+import com.jack.wordreview.entry.WordEntry;
 
 /**
  * FileWordDaoTest
@@ -8,8 +13,20 @@ import org.junit.Test;
 public class FileWordDaoTest {
 
   @Test
-  public void list() {
-    System.out.println("This point would make mvn install failed");
+  public void list() throws Exception {
+    WordDao wordDao = new FileWordDao();
+    List<WordEntry> list = wordDao.list();
+    for (WordEntry wordEntry : list) {
+      System.out.println(wordEntry);
+    }
+
     assert (true);
   }
+
+  @Test
+  public void singleTest() {
+    System.out.println("just test for maven run one test");
+    assert (true);
+  }
+
 }

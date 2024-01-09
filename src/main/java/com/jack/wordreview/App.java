@@ -17,7 +17,5 @@ public class App {
     Word word = reviewService.getWord();
     System.out.println("word: " + word.getName() + " definition: " + word.getDefinition());
 
-    WordDao wordDao = new FileWordDao();
-    wordDao.list();
   }
 }

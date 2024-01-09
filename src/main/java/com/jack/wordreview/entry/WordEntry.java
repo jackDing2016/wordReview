@@ -25,4 +25,13 @@ public class WordEntry {
     this.definition = definition;
   }
 
+  public WordEntry(String name, String definition) {
+    this.name = name;
+    this.definition = definition;
+  }
+
+  @Override
+  public String toString() {
+    return name + "=" + definition;
+  }
 }

@@ -29,4 +29,12 @@ public class Word implements java.io.Serializable {
     this.definition = definition;
   }
 
+  public Word() {
+
+  }
+
+  @Override
+  public String toString() {
+    return name + "=" + definition;
+  }
 }
